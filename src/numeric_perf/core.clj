@@ -23,3 +23,14 @@
 (defn qsort-vec [n]
   (let [v  (take n (repeatedly rand))]
     (doall (qsort v))))
+
+(defn pi-sum [n]
+  " damn slow
+  "
+  (loop [sum ^double 0.0 k ^int n]
+    (if (= k 0)
+      sum
+      (recur (+ sum (/ (* k k))) (dec k)))))
+
+(defn pi-sum-mr [n]
+  (reduce + (map #(double (/ (* % %))) (range 1 (inc n)))))
