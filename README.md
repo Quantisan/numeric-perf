@@ -51,7 +51,9 @@ Mandelbrot and a couple of matrix benchmarks are missing.
 
 ## Usage
 
+```bash
 lein test
+```
 
 ## License
 
