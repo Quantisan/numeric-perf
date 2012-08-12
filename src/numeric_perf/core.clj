@@ -26,7 +26,7 @@
 (defn pi-sum [n]
   " damn slow
   "
-  (loop [sum ^double 0.0 k ^int n]
+  (loop [sum 0.0 k n]
     (if (= k 0)
       sum
       (recur (+ sum (/ (* k k))) (dec k)))))

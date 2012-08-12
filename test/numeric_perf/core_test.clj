@@ -9,7 +9,7 @@
 
 (deftest parse-test
   (println "\nParse integer\n")
-  (quick-bench (parse-int)))
+  (quick-bench (dotimes [_ 1000] (parse-int))))
 
 (deftest qsort-test
   (println "\nNumeric vector sort\n")  

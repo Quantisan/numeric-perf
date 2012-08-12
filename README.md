@@ -26,7 +26,7 @@ whereas others were done natively.
   </tr>
   <tr>
     <td>parse-int</td>
-    <td>0.0046811</td>
+    <td>0.13881</td>
     <td>0.3230571746826172</td>
     <td>3.54099273682</td>
     <td>65.00000000</td>
@@ -40,7 +40,7 @@ whereas others were done natively.
   </tr>  
   <tr>
     <td>pi-sum</td>
-    <td>6440.424</td>
+    <td>6440.4</td>
     <td>38.4678840637207</td>
     <td>1035.23206711</td>
     <td>6809.00000000</td>
