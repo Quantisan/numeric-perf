@@ -1,5 +1,4 @@
-(ns numeric-perf.core
-  (:use criterium.core))
+(ns numeric-perf.core)
 
 (defn fib [x]
   "fib(n) = n < 2 ? n : fib(n-1) + fib(n-2)"

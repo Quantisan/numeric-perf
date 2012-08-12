@@ -1,13 +1,16 @@
 # numeric-perf
 
-A Clojure library designed to ... well, that part is up to you.
+Clojure implementation of [Julia language](http://julialang.org/)'s
+cross-platform benchmark.
+
+## Result
 
 ## Usage
 
-FIXME
+lein test
 
 ## License
 
-Copyright © 2012 FIXME
+Copyright © 2012 Paul Lam
 
 Distributed under the Eclipse Public License, the same as Clojure.
